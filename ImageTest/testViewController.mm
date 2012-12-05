@@ -25,6 +25,7 @@ std::vector <Eigen::Vector4d> points3D;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSLog(@"Hi");
 	// Do any additional setup after loading the view, typically from a nib.
     image = [UIImage imageNamed:@"/IMG_0055.JPG"];
     image1 = [UIImage imageNamed:@"/IMG_0056.JPG"];
